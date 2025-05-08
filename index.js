@@ -126,9 +126,9 @@ async function main() {
         if (success) {
           successCount++
           // Show a truncated webhook URL for privacy/security
-          console.log(`✅ Successfully sent to webhook: ${webhook.substring(0, 20)}...`)
+          console.log(`Successfully sent to webhook: ${webhook.substring(0, 20)}...`)
         } else {
-          console.log(`❌ Failed to send to webhook: ${webhook.substring(0, 20)}...`)
+          console.log(`Failed to send to webhook: ${webhook.substring(0, 20)}...`)
         }
 
         // Small delay between webhook calls to avoid rate limiting
