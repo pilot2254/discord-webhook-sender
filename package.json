@@ -1,6 +1,6 @@
 {
     "name": "discord-webhook-sender",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A Node.js application to send messages to multiple Discord webhooks with configurable looping",
     "main": "index.js",
     "type": "module",
