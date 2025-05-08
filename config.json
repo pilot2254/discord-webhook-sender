@@ -1,0 +1,6 @@
+{
+    "message": "Hello from the Discord Webhook Sender!",
+    "loop": true,
+    "loopCount": 5,
+    "loopDelay": 1000
+}
